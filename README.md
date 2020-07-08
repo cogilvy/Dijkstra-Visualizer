@@ -21,7 +21,7 @@ To start the frontend:
 ```
 $ git clone
 $ cd [repo location]
-$ cd cryptopedia-frontend
+$ cd Dijkstra-Visualizer
 $ npm install
 $ npm start
 ```
