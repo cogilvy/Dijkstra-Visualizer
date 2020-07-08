@@ -14,9 +14,6 @@ The Dijkstra algorithm uses labels that are positive integers or real numbers, w
 ### Installing and Running the App
 
 A step by step series of examples that tell you how to get a development env running.
-You will need to have cloned the backend repo and started the rails server on port 3000.
-The frontend will run on port 3001 by default if you already have the backend server up and running.
-To start the frontend:
 
 ```
 $ git clone
