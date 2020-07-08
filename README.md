@@ -9,3 +9,19 @@ The algorithm exists in many variants. Dijkstra's original algorithm found the s
 For a given source node in the graph, the algorithm finds the shortest path between that node and every other. It can also be used for finding the shortest paths from a single node to a single destination node by stopping the algorithm once the shortest path to the destination node has been determined. For example, if the nodes of the graph represent cities and edge path costs represent driving distances between pairs of cities connected by a direct road (for simplicity, ignore red lights, stop signs, toll roads and other obstructions), Dijkstra's algorithm can be used to find the shortest route between one city and all other cities. A widely used application of shortest path algorithm is network routing protocols, most notably IS-IS (Intermediate System to Intermediate System) and Open Shortest Path First (OSPF). It is also employed as a subroutine in other algorithms such as Johnson's.
 
 The Dijkstra algorithm uses labels that are positive integers or real numbers, which are totally ordered. It can be generalized to use any labels that are partially ordered, provided the subsequent labels (a subsequent label is produced when traversing an edge) are monotonically non-decreasing. This generalization is called the generic Dijkstra shortest-path algorithm.
+
+
+### Installing and Running the App
+
+A step by step series of examples that tell you how to get a development env running.
+You will need to have cloned the backend repo and started the rails server on port 3000.
+The frontend will run on port 3001 by default if you already have the backend server up and running.
+To start the frontend:
+
+```
+$ git clone
+$ cd [repo location]
+$ cd cryptopedia-frontend
+$ npm install
+$ npm start
+```
