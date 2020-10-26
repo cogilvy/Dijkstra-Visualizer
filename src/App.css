@@ -45,8 +45,8 @@ cursor: pointer;
 }
 
 .node {
-  width: 25px;
-  height: 25px;
+  width: 1.5vw;
+  height: 2vh;
   outline: 1px solid rgb(175, 216, 248);
   display: inline-block;
   background-color: white;

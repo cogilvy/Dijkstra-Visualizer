@@ -107,8 +107,8 @@ export default class DijkstraVisualizer extends Component {
         <h5>Click on a square and drag to place walls between the starting node <span style={{color: "green"}}>(green)</span> and the end node <span style={{color: "red"}}>(red).</span> </h5>
         <h5>Once all the walls are placed, click the button below to find the shortest path between start and finish using Dijkstra's Algorithm.</h5>
         <hr></hr>
-        <div onClick={() => this.visualizeDijkstra()}><a class="visualize-button">Visualize Dijkstra's Algorithm</a></div>
-        <div onClick={() => this.resetBoard()}><a class="reset-button">Reset</a></div>
+        <div onClick={() => this.visualizeDijkstra()}><a className="visualize-button">Visualize Dijkstra's Algorithm</a></div>
+        <div onClick={() => this.resetBoard()}><a className="reset-button">Reset</a></div>
         <div className="grid">
           {grid.map((row, rowIdx) => {
             return (
